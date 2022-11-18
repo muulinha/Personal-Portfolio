@@ -41,12 +41,13 @@ header li {
 
 .main-area {
     padding: 30px 60px 30px 100px ;
+    border:2px solid black
 }
 
 .about-me{
-    display: flex;
-    margin-bottom: 50px;
-  
+    display: flex; 
+    border:2px solid blue;
+    
 }
 
 h2 {
@@ -54,23 +55,21 @@ h2 {
     text-align: right;
     min-width: 150px;
     margin-right: 30px;
+    border:2px solid pink
 }
 
 
 
 
 .top-img2 {
-    display: block;
     width: 100%;
-    height: 300px;
+    height: 600px;
     border: 3px solid rgb(197, 167, 224);
     object-fit: cover; 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.top {
-    width: 200px;
-}
+
 
 .contact {
     color: black;
@@ -97,7 +96,25 @@ h2 {
     text-underline-offset: 5px;
 }
 
-.paragraphs {
-    margin-left: 2px purple solid;
+.content-right {
     width: 100%;
-} 
+    border:2px solid black
+}
+
+.work-pics {
+    width: 100%;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+    }
+
+    .top {
+        width: auto;
+        justify-content: space-between;
+        max-width: 49%;
+        margin: 20px 0
+    }
