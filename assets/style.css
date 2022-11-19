@@ -117,6 +117,11 @@ h2 {
     height: 150px;
     object-fit:cover;
     border:5px solid #92cccd;
+    filter: brightness(50%);
+}
+
+.work-pic1 {
+    filter: brightness(50%);
 }
 
 .top1, .top3 {
@@ -174,7 +179,9 @@ span {
 }
 
 
-
+.top1:hover, .top2:hover, .top3:hover, .top4:hover, .work-pic1:hover {
+    filter:brightness(100%)
+}
 
 
 
