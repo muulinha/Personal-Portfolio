@@ -32,6 +32,14 @@ header li {
 a {
     color: white;
 }
+
+.link-header:hover {
+    color: #92cccd;
+}
+
+.link-header:visited {
+    color:#808db4
+}
 /* HEADER ENDS */
 
 
@@ -178,14 +186,17 @@ span {
     font-size: 25px;
 }
 
-
 .top1:hover, .top2:hover, .top3:hover, .top4:hover, .work-pic1:hover {
     filter:brightness(100%)
 }
 
+.contact:hover {
+    color:#92cccd;
+}
 
-
-
+.contact:visited {
+    color:#7c8485;
+}
 
 
 
